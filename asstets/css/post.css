@@ -1,0 +1,118 @@
+/* post.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #eaeaea;
+}
+
+header a {
+    font-size: 0.9em;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.author-info img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+}
+
+.author-info div {
+    max-width: 80%;
+}
+
+.author-name {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.author-description {
+    font-size: 1em;
+    color: #777;
+}
+
+.blog-post-title {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.blog-content {
+    padding: 20px;
+    max-width: 800px; /* Adjust as needed */
+    margin: auto;
+}
+
+.blog-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #eaeaea;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8em;
+    color: #777;
+}
+
+/* Code block styling (if you have code snippets) */
+pre {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow: auto;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .author-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .author-info img {
+        margin-bottom: 20px;
+    }
+
+    .author-info div {
+        max-width: 100%;
+    }
+}

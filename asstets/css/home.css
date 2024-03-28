@@ -1,0 +1,29 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2em;
+}
+
+.blog-preview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1em;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 4px;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card h2 a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Additional styles and media queries for responsiveness */
