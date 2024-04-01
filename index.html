@@ -8,35 +8,44 @@
     <link rel="stylesheet" href="asstets/css/home.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">Design System</a>
-            <a href="#">Link Two</a>
-            <a href="#">Link Three</a>
-            <a href="#">Link Four</a>
+    <header class="site-header">
+        <div class="container header-contents">
+            <h1 class="logo">MyBlog</h1>
+            <nav class="site-navigation">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Articles</a>
+                <a href="#">Contact</a>
+            </nav>
         </div>
-        <div class="nav-actions">
-            <button class="button-follow">FOLLOW</button>
-            <button class="button-subscribe">SUBSCRIBE</button>
-        </div>
-    </nav>
+    </header>
     
-    <main class="home">
-        <section class="blog-preview">
-            <article class="card">
-                <h2><a href="blog-posts/post1.html">Blog Post 1</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-            </article>
-            <article class="card">
-                <h2>Panel 2</h2>
-                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra...</p>
-            </article>
+    <div class="hero">
+        <div class="container">
+            <h2>Welcome to My Personal Blog</h2>
+            <p>Discover my world of blogging - insights, stories, and more.</p>
+        </div>
+    </div>
+    
+    <main class="container">
+        <section class="featured-posts">
+            <h3>Featured Articles</h3>
+            <div class="posts-grid">
+                <article class="post-card">
+                    <div class="post-info">
+                        <h4><a href="blog-posts/post1.html">Blog Post 1</a></h4>
+                        <p>A captivating summary of the blog post...</p>
+                    </div>
+                </article>
+                <!-- Repeat for other featured posts -->
+            </div>
         </section>
     </main>
     
-    <footer>
-        <p>Copyright 2021</p>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 My Personal Blog. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>

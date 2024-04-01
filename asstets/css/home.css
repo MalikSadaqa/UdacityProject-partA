@@ -1,29 +1,48 @@
-.home {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 2em;
+/* Specific styles for the home page */
+.featured-posts {
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.blog-preview {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 1em;
+.post-card {
+    transition: transform 0.2s ease;
 }
 
-.card {
-    border: 1px solid #ddd;
-    padding: 1em;
-    border-radius: 4px;
+.post-card:hover {
+    transform: scale(1.05);
 }
 
-.card h2 {
-    margin-top: 0;
-}
-
-.card h2 a {
+.post-card h4 {
     color: #333;
-    text-decoration: none;
+    transition: color 0.2s ease;
 }
 
-/* Additional styles and media queries for responsiveness */
+.post-card:hover h4 {
+    color: #1e90ff;
+}
+
+/* Additional responsive design and fancy styles */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    
+    .header-contents, .site-footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .header-contents .logo {
+        margin-bottom: 1rem;
+    }
+    
+    .site-navigation a {
+        padding: 0.3rem;
+    }
+
+    .hero {
+        padding: 3rem 0;
+    }
+}
