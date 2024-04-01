@@ -21,6 +21,9 @@ body {
     margin-bottom: 20px;
     display: inline-block;
 }
+.back-to-blog::before {
+    content: "← ";
+}
 
 .blog-post-title {
     color: #000;
