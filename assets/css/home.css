@@ -1,45 +1,31 @@
 /* Specific styles for the home page */
-.featured-blogs {
-    padding: 4rem 0; /* Increased padding around the featured blogs section */
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+.featured-blogs h3 {
+    font-size: 2rem; /* Size of the section title increased */
+    font-weight: bold; /* Make the title bold */
+    color: #333; /* Color of the title */
+    margin: 2rem 0; /* Space above and below the title */
+    text-align: center; /* Centering the section title */
 }
 
+/* Adjustments for the post cards to span more width */
 .post-card {
-    transition: transform 0.3s ease;
-    padding: 2rem; /* Added padding inside each post card for spacing */
+    height: auto; /* Height to auto to fit content */
+    margin: 1rem; /* Spacing around cards */
 }
 
-.post-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-
+/* Text styling within post cards */
 .post-card h4 {
-    color: #333;
-    font-size: 1.5rem; /* Slightly larger font size for blog titles */
-    margin-bottom: 1rem; /* Added margin for spacing between title and excerpt */
-}
-
-.post-card h4 a {
-    color: inherit;
-    text-decoration: none;
+    font-size: 1.25rem; /* Title size within cards */
+    margin-bottom: 0.5rem; /* Spacing below titles */
 }
 
 .post-card p {
-    color: #555;
-    line-height: 1.7;
-    font-size: 1rem;
+    color: #666; 
 }
 
-/* Additional responsive adjustments as needed */
-@media (max-width: 768px) {
-    .featured-blogs {
-        padding: 2rem;
-    }
-    
-    .post-card {
-        padding: 1rem;
-    }
+.post-card h4 a {
+    text-decoration: none; 
+    color: black;
+    font-weight: bold; 
 }
+
