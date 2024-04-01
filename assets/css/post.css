@@ -36,8 +36,8 @@ header a {
 .author-info img {
     border-radius: 50%;
     margin-right: 20px;
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
+    width: 100px; 
+    height: 100px; 
 }
 
 .author-info div {
@@ -62,7 +62,7 @@ header a {
 
 .blog-content {
     padding: 20px;
-    max-width: 800px; /* Adjust as needed */
+    max-width: 800px; 
     margin: auto;
 }
 
@@ -89,7 +89,7 @@ footer p {
     color: #777;
 }
 
-/* Code block styling (if you have code snippets) */
+
 pre {
     background-color: #f4f4f4;
     border: 1px solid #ddd;
@@ -101,7 +101,7 @@ code {
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
     .author-info {
         flex-direction: column;
