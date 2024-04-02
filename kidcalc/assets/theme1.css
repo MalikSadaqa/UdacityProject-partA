@@ -1,0 +1,22 @@
+/* theme1.css - Space Theme */
+body.theme1 {
+    background-color: #0A0A1A; /* Dark Space Blue */
+    color: #E0E0E0; /* Light Grey Text */
+    background-image: 
+        url('../assets/images/space1.jpg'),
+        url('../assets/images/space2.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+    background-size: 50% 50%, 50% 50%;
+}
+
+body.theme1 button, body.theme1 .form-field {
+    background-color: #31435A; /* Space Grey */
+    border-color: #90CAF9; /* Sky Blue */
+    color: white;
+}
+
+body.theme1 .calc-display, body.theme1 .calc-answer input {
+    background-color: #1A237E; /* Dark Blue */
+    color: #FFEB3B; /* Yellow Text */
+}

@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-form, .kidcalc-section, .information-bar {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .number-buttons button, .operator-buttons button {
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .calc-display input, .calc-answer input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .calc-controls button {
+    padding: 10px;
+    margin-right: 5px;
+  }
+  
