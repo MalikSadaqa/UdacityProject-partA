@@ -1,22 +1,46 @@
 /* theme3.css - Cars Theme */
 body.theme3 {
-    background-color: #546E7A; /* Slate Grey */
-    color: #37474F; /* Dark Grey Text */
-    background-image: 
-        url('../assets/images/cars1.jpg'),
-        url('../assets/images/cars2.jpg');
+    background-color: #ececec; /* Light grey, reminiscent of urban environments */
+    color: #333333; /* Dark grey text for readability */
+    background-image: url('../assets/images/cars3.jpg'), url('../assets/images/cars2.jpg');
     background-repeat: no-repeat, no-repeat;
-    background-position: bottom right, top left;
-    background-size: 50% 50%, 50% 50%;
+    background-position: top, bottom;
+    background-size: cover, cover;
+    background-attachment: fixed, fixed;
 }
 
-body.theme3 button, body.theme3 .form-field {
-    background-color: #D32F2F; /* Red */
-    border-color: #F44336; /* Bright Red */
-    color: white;
+body.theme3 .form-field label,
+body.theme3 .information-bar p,
+body.theme3 .calc-results p {
+    color: #303030; /* Darker text for better readability */
 }
 
-body.theme3 .calc-display, body.theme3 .calc-answer input {
-    background-color: #B71C1C; /* Dark Red */
-    color: #FFEB3B; /* Yellow Text */
+body.theme3 button {
+    background-color: #FF6F61; /* Soft red */
+    color: #FFFFFF; /* White for text */
+    border: 2px solid #FF9E80; /* Light red border */
 }
+
+body.theme3 .calc-display input,
+body.theme3 .calc-answer input {
+    background-color: #FFF3E0; /* Very light red/orange */
+    color: #616161; /* Grey for text */
+    border: 2px solid #FFAB91; /* Soft border color */
+}
+
+body.theme3 .calc-controls button:hover {
+    background-color: #FF8A65; /* Lighter red for hover state */
+    color: #FFFFFF; /* Keep text white for readability on hover */
+}
+
+body.theme3 .calc-results {
+    background-color: #FFAB91; /* Light red background for results */
+    color: #303030; /* Dark text for readability */
+}
+
+body.theme3 .information-bar {
+    background-color: #FFAB91; /* Same as calc results background */
+    color: #303030; /* Same as results text */
+}
+
+/* Additional specific styles for theme3 elements */

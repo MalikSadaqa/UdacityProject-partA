@@ -1,22 +1,40 @@
 /* theme2.css - Dinosaur Theme */
 body.theme2 {
-    background-color: #8BC34A; /* Light Green */
-    color: #4E342E; /* Dark Brown Text */
-    background-image: 
-        url('../assets/images/dinosaur1.jpg'),
-        url('../assets/images/dinosaur2.jpg');
+    background-color: #c7d5b1; /* Soft earthy green */
+    color: #333333; /* Dark grey text for readability */
+    background-image: url('../assets/images/dinosaur1.jpg'), url('../assets/images/dinosaur2.jpg');
     background-repeat: no-repeat, no-repeat;
-    background-position: top right, bottom left;
-    background-size: 50% 50%, 50% 50%;
+    background-position: top, bottom;
+    background-size: cover, cover;
+    background-attachment: fixed, fixed;
 }
 
-body.theme2 button, body.theme2 .form-field {
-    background-color: #6B8E23; /* Olive Green */
-    border-color: #558B2F; /* Forest Green */
-    color: white;
+body.theme2 .form-field label,
+body.theme2 .information-bar p,
+body.theme2 .calc-results p {
+    color: #3E443B; /* Darker earth tone for better readability */
 }
 
-body.theme2 .calc-display, body.theme2 .calc-answer input {
-    background-color: #33691E; /* Dark Green */
-    color: #FFC107; /* Amber Text */
+body.theme2 button {
+    background-color: #8A9A5B; /* Muted olive green */
+    color: #F4F4F2; /* Off-white for text */
+    border: 2px solid #727967; /* Grey-green border for contrast */
 }
+
+body.theme2 .calc-display input,
+body.theme2 .calc-answer input {
+    background-color: #A4A882; /* Soft khaki */
+    color: #333; /* Dark text for contrast and readability */
+    border: 2px solid #727967; /* Matching the button borders */
+}
+
+body.theme2 .calc-controls button:hover {
+    background-color: #9C9F88; /* A slightly lighter khaki for the hover state */
+    color: #5C5F58; /* Darker text on hover */
+}
+
+body.theme2 .calc-results {
+    background-color: #8A9A5B; /* Same as button background */
+    color: #F4F4F2; /* Same as button text */
+}
+
