@@ -1,7 +1,7 @@
 /* theme1.css - Space Theme */
 body.theme1 {
-    background-color: #3D5A80; /* Deep space blue */
-    color: #ffffff; /* White text for better readability */
+    background-color: #3D5A80; 
+    color: #ffffff; 
     background-image: url('../assets/images/space1.jpg'), url('../assets/images/space2.jpg');
     background-repeat: no-repeat, no-repeat;
     background-position: top, bottom;
@@ -9,33 +9,33 @@ body.theme1 {
     background-attachment: fixed, fixed;
 }
 
-/* Label colors updated to be visible against the background */
+
 body.theme1 .form-field label {
-    color: #293241; /* Light grey for labels */
+    color: #293241; 
 }
 
 body.theme1 button {
-    background-color: #3D5A80; /* Button background */
-    color: #E0E0E0; /* Button text */
-    border: 1px solid #293241; /* Button border */
+    background-color: #3D5A80; 
+    color: #E0E0E0; 
+    border: 1px solid #293241; 
 }
 
-/* Input fields now match button colors */
+
 body.theme1 .calc-display input,
 body.theme1 .calc-answer input {
-    background-color: #3D5A80; /* Same as button background */
-    color: #E0E0E0; /* Same as button text */
-    border: 1px solid #293241; /* Same as button border */
+    background-color: #3D5A80; 
+    color: #E0E0E0; 
+    border: 1px solid #293241;
 }
 
 body.theme1 .calc-results {
-    background-color: #293241; /* Results background */
-    color: #E0E0E0; /* Results text */
+    background-color: #293241; 
+    color: #E0E0E0; 
 }
 
 body.theme1 .information-bar {
-    background-color: #3D5A80; /* Info bar background */
-    color: #E0E0E0; /* Info bar text */
+    background-color: #3D5A80; 
+    color: #E0E0E0; 
 }
 
-/* Additional styles for theme 1 */
+

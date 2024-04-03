@@ -1,22 +1,22 @@
 /* Specific styles for the home page */
 .featured-blogs h3 {
-    font-size: 2rem; /* Size of the section title increased */
-    font-weight: bold; /* Make the title bold */
-    color: #333; /* Color of the title */
-    margin: 2rem 0; /* Space above and below the title */
-    text-align: center; /* Centering the section title */
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: #333; 
+    margin: 2rem 0; 
+    text-align: center; 
 }
 
-/* Adjustments for the post cards to span more width */
+
 .post-card {
-    height: auto; /* Height to auto to fit content */
-    margin: 1rem; /* Spacing around cards */
+    height: auto; 
+    margin: 1rem; 
 }
 
-/* Text styling within post cards */
+
 .post-card h4 {
-    font-size: 1.25rem; /* Title size within cards */
-    margin-bottom: 0.5rem; /* Spacing below titles */
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem; 
 }
 
 .post-card p {

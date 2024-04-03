@@ -1,4 +1,3 @@
-/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
@@ -9,16 +8,16 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4; /* Light gray background */
+    background-color: #f4f4f4; 
 }
 
 /* Styling for the container sections */
 .login-form, .kidcalc-section, .information-bar {
-    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    background: rgba(255, 255, 255, 0.9); 
     padding: 20px;
     margin: 20px auto;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     width: 80%;
     max-width: 960px;
 }
@@ -34,10 +33,10 @@ body {
 }
 
 input[type="text"], input[type="number"], select {
-    width: calc(100% - 22px); /* Full width minus padding and border */
+    width: calc(100% - 22px); 
     padding: 10px;
     margin-bottom: 10px;
-    border: 2px solid #ccc; /* Visible border for input fields */
+    border: 2px solid #ccc; 
     border-radius: 5px;
     font-size: 16px;
 }
@@ -45,16 +44,16 @@ input[type="text"], input[type="number"], select {
 /* Button styling */
 button {
     padding: 10px 15px;
-    border: 2px solid #ccc; /* Visible border for buttons */
+    border: 2px solid #ccc; 
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    background-color: #e7e7e7; /* Light gray background */
-    color: #333; /* Text color for buttons */
+    background-color: #e7e7e7; 
+    color: #333; 
 }
 
 button:hover {
-    background-color: #d7d7d7; /* Slightly darker background on hover */
+    background-color: #d7d7d7; 
 }
 
 /* KidCalc section specific styling */
@@ -65,9 +64,9 @@ button:hover {
 
 /* Calculator display and answer input */
 .calc-display input, .calc-answer input {
-    width: 100%; /* Full width of the container */
+    width: 100%; 
     padding: 10px;
-    border: 2px solid #ccc; /* Visible border for input fields */
+    border: 2px solid #ccc; 
     border-radius: 5px;
     font-size: 16px;
     margin-bottom: 10px;
@@ -76,19 +75,19 @@ button:hover {
 /* Results and information bar */
 .calc-results p, .information-bar p {
     padding: 10px;
-    background: #e7e7e7; /* Light gray background */
+    background: #e7e7e7; 
     border-radius: 5px;
     margin-bottom: 10px;
-    color: #333; /* Dark text for readability */
+    color: #333; 
     text-align: center;
 }
 
-/* Ensure clear visibility of text over the potential background image */
+
 .information-bar p, .calc-results p {
     background: rgba(255, 255, 255, 0.8);
 }
 
-/* Media Queries for Responsive Design */
+
 @media (max-width: 768px) {
     .login-form, .kidcalc-section, .information-bar {
         width: 95%;

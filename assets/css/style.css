@@ -1,4 +1,4 @@
-/* Reset and common styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +22,7 @@ body {
   flex-grow: 1;
 }
 
-/* Header styles */
+
 .site-header {
   background-color: #333;
   color: white;
@@ -55,21 +55,21 @@ body {
 
 /* Hero section */
 .hero {
-  background: #fff; /* Assuming you want a light background */
+  background: #fff; 
   padding: 5rem 0 3rem;
 }
 
 .hero h2, .hero p {
-  color: black; /* Text color updated to black */
-  text-align: center; /* Center the text for better appearance */
+  color: black; 
+  text-align: center; 
 }
 
-/* Main content styles */
+
 .posts-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
-  margin-top: 2rem; /* Additional space between header and grid */
+  margin-top: 2rem; 
 }
 
 .post-card {
@@ -84,7 +84,7 @@ body {
   transform: translateY(-5px);
 }
 
-/* Footer styles */
+
 .site-footer {
   background-color: #333;
   color: white;
@@ -92,7 +92,7 @@ body {
   padding: 10px 0;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
   .site-navigation a, .button {
       padding: 0.3rem 0.6rem;

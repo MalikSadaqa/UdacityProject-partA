@@ -1,7 +1,7 @@
 /* theme2.css - Dinosaur Theme */
 body.theme2 {
-    background-color: #c7d5b1; /* Soft earthy green */
-    color: #333333; /* Dark grey text for readability */
+    background-color: #c7d5b1; 
+    color: #333333; 
     background-image: url('../assets/images/dinosaur1.jpg'), url('../assets/images/dinosaur2.jpg');
     background-repeat: no-repeat, no-repeat;
     background-position: top, bottom;
@@ -12,29 +12,29 @@ body.theme2 {
 body.theme2 .form-field label,
 body.theme2 .information-bar p,
 body.theme2 .calc-results p {
-    color: #3E443B; /* Darker earth tone for better readability */
+    color: #3E443B; 
 }
 
 body.theme2 button {
-    background-color: #8A9A5B; /* Muted olive green */
-    color: #F4F4F2; /* Off-white for text */
-    border: 2px solid #727967; /* Grey-green border for contrast */
+    background-color: #8A9A5B; 
+    color: #F4F4F2; 
+    border: 2px solid #727967; 
 }
 
 body.theme2 .calc-display input,
 body.theme2 .calc-answer input {
-    background-color: #A4A882; /* Soft khaki */
-    color: #333; /* Dark text for contrast and readability */
-    border: 2px solid #727967; /* Matching the button borders */
+    background-color: #A4A882; 
+    color: #333; 
+    border: 2px solid #727967; 
 }
 
 body.theme2 .calc-controls button:hover {
-    background-color: #9C9F88; /* A slightly lighter khaki for the hover state */
-    color: #5C5F58; /* Darker text on hover */
+    background-color: #9C9F88; 
+    color: #5C5F58; 
 }
 
 body.theme2 .calc-results {
-    background-color: #8A9A5B; /* Same as button background */
-    color: #F4F4F2; /* Same as button text */
+    background-color: #8A9A5B; 
+    color: #F4F4F2; 
 }
 

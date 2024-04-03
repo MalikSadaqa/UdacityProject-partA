@@ -89,13 +89,10 @@
         });
 
         function changeTheme(themeName) {
-            // Clear all existing theme classes
             document.body.classList.remove('theme1', 'theme2', 'theme3');
 
-            // Add the selected theme class to the body
             document.body.classList.add(themeName);
 
-            // Enable the corresponding stylesheet
             ['theme1-css', 'theme2-css', 'theme3-css'].forEach(themeId => {
                 document.getElementById(themeId).disabled = themeId !== themeName + '-css';
             });
