@@ -1,6 +1,8 @@
 
-.form-field {
-    margin-bottom: 10px;
+.form-field label {
+    font-family: 'Verdana', sans-serif; 
+    display: block;
+    margin-bottom: 5px;
 }
 
 .form-field label {
@@ -10,21 +12,19 @@
 
 input[type="text"], input[type="number"], select {
     width: calc(100% - 22px); 
+    font-family: 'Arial', sans-serif;
     padding: 10px;
     margin-bottom: 10px;
-    border: 2px solid #ccc; 
+    border: 2px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
 }
 
 button {
     padding: 10px 15px;
-    border: 2px solid #ccc; 
-    border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
-    background-color: #e7e7e7; 
-    color: #333; 
+    border-radius: 5px;
+    border: 2px solid #ccc;
 }
 
 button:hover {
