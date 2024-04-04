@@ -37,3 +37,34 @@
 .elsewhere-section {
     margin-top: 50px;
 }
+
+@media (max-width: 768px) {
+    .blog-post-container {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    .author-info, .blog-footer, .elsewhere-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .author-info h2, .blog-post-content h2, .blog-post-content h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .back-to-blog, .blog-footer p {
+        font-size: 0.9rem;
+    }
+
+    .blog-post-title {
+        font-size: 1.8rem;
+    }
+
+    .author-avatar {
+        width: 80px;
+        height: 80px;
+    }
+}
