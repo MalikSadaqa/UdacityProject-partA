@@ -1,5 +1,4 @@
-/* post.css */
-@import url('../fonts.css');
+@import url('fonts.css');
 body {
     font-family: Arial, sans-serif;
     margin: 0;
