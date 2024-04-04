@@ -29,13 +29,23 @@
     font-weight: bold; 
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
+    .posts-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media only screen and (max-width: 768px) {
     .container {
         width: 95%;
     }
 
+    .site-navigation a, .button {
+        font-size: 0.9rem; 
+    }
+
     .hero h2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .hero p {
@@ -46,22 +56,23 @@
         grid-template-columns: 1fr; 
     }
 
-    .post-card {
-        padding: 1rem;
+    .post-card h4 {
+        font-size: 1rem;
     }
 }
 
-@media (max-width: 480px) {
-    .site-header .logo {
-        font-size: 1.5rem;
+@media only screen and (max-width: 480px) {
+    .site-header .header-contents {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .site-navigation a, .button {
-        padding: 0.5rem;
-        font-size: 0.8rem;
+    .site-navigation {
+        margin-top: 10px;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .hero h2 {
-        font-size: 1.25rem;
+        font-size: 1.2rem;
     }
 }

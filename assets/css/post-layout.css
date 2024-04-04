@@ -38,15 +38,23 @@
     margin-top: 50px;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .blog-post-container {
         width: 95%;
-        padding: 1rem;
+        padding: 15px;
     }
 
-    .author-info, .blog-footer, .elsewhere-section {
+    .author-info {
         flex-direction: column;
-        align-items: center;
+        text-align: center;
+    }
+
+    .author-avatar {
+        margin-bottom: 10px;
+    }
+
+    .blog-post-title {
+        font-size: 1.8rem;
     }
 
     .author-info h2, .blog-post-content h2, .blog-post-content h3 {
@@ -54,17 +62,16 @@
     }
 }
 
-@media (max-width: 480px) {
-    .back-to-blog, .blog-footer p {
-        font-size: 0.9rem;
+@media only screen and (max-width: 480px) {
+    .back-to-blog {
+        font-size: 0.8rem;
     }
 
-    .blog-post-title {
-        font-size: 1.8rem;
+    .author-info h2 {
+        font-size: 1.1rem;
     }
 
-    .author-avatar {
-        width: 80px;
-        height: 80px;
+    .blog-post-content p, .blog-post-content ul {
+        font-size: 0.95rem;
     }
 }
